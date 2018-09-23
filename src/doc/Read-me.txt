@@ -1,0 +1,21 @@
+1) Check the project
+2) import the project to the workspace in Eclipse/IntelliJ IDEA/ Spring Tool Suite 
+3) in the file "application.property" 
+	- jdbc.url = jdbc:mysql://localhost:3306/united?useSSL=false
+	- jdbc.username = root
+	- jdbc.password = root
+	- hibernate.dialect = org.hibernate.dia
+	
+	* base on this configuration you need to create the database name "united".
+	* the username is root (you can change if you want)
+	* password is root. (you can change if you want)
+4) update the project using maven
+5) run the project on the server using "apache Tomcat 8" 
+6) by default we initial 2 user in "initial_data.sql"
+	"buyer@mum.edu" password : "123" , role: "buyer"
+	"admin@mum.edu" password : "123" , role: "admin"
+
+7) all the doc files are in src/doc folder 
+
+
+Thank you ~! TEAM : UNITED
